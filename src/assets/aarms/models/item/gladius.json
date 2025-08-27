@@ -1,0 +1,37 @@
+{
+  "loader": "tconstruct:tool",
+  "parent": "forge:item/default-tool",
+  "textures": {
+    "head":   "aarms:item/tool/gladius/head",
+    "handle": "aarms:item/tool/gladius/handle",
+    "guard":  "aarms:item/tool/gladius/guard",
+    "edge": "aarms:item/tool/gladius/edge",
+
+    "large_head":   "aarms:item/tool/gladius/large/head",
+    "large_handle": "aarms:item/tool/gladius/large/handle",
+    "large_guard":  "aarms:item/tool/gladius/large/guard",
+    "large_edge": "aarms:item/tool/gladius/large/edge"
+  },
+  "modifier_roots": {
+    "small": [ "aarms:item/tool/gladius/modifiers/" ],
+    "large": [ "aarms:item/tool/gladius/large/modifiers/" ]
+  },
+  "large": true,
+  "large_offset": [-2, 2],
+  "parts": [
+    { "name": "handle", "index": 1 },
+    { "name": "head",   "index": 0 },
+    { "name": "edge", "index": 3 },
+    { "name": "guard",  "index": 2 }
+  ],
+  "overrides": [
+    {
+      "predicate": { "aarms:charging": 2 },
+      "model": "aarms:item/tool/gladius/blocking"
+    },
+    {
+      "predicate": { "aarms:broken": 1 },
+      "model": "aarms:item/tool/gladius/broken"
+    }
+  ]
+}

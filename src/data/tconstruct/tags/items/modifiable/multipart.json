@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "aarms:gladius",
+    "aarms:wakizashi",
+	"aarms:oodachi",
+    "aarms:round_shield",
+    "aarms:tanto"
+  ]
+}

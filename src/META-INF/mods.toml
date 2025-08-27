@@ -1,0 +1,29 @@
+modLoader="lowcodefml"
+loaderVersion="[40,)"
+issueTrackerURL=""
+license="MIT"
+[[mods]]
+    modId="aarms"
+    version="1.0.3"
+    displayName="Ancient Armaments"
+    description='''
+    Swords from days of old!.
+    '''
+[[dependencies.aarms]]
+    modId="forge"
+    mandatory=false
+    versionRange="[43.4.12,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.aarms]]
+    modId="tconstruct"
+    mandatory=true
+    versionRange="[3.8.2.32,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.aarms]]
+    modId="jsonthings"
+    mandatory=true
+    versionRange="[0.7.15,)"
+    ordering="NONE"
+    side="BOTH"

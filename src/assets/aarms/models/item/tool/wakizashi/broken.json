@@ -1,0 +1,27 @@
+{
+  "loader": "tconstruct:tool",
+  "parent": "forge:item/default-tool",
+  "textures": {
+    "head":   "aarms:item/tool/wakizashi/blade",
+    "handle": "aarms:item/tool/wakizashi/handle",
+    "guard":  "aarms:item/tool/wakizashi/hilt"
+  },
+  "modifier_roots": [
+    "aarms:item/tool/wakizashi/broken/",
+    "aarms:item/tool/wakizashi/modifiers/"
+  ],
+  "parts": [
+    {
+      "name": "handle",
+      "index": 1
+    },
+    {
+      "name": "head",
+      "index": 0
+    },
+    {
+      "name": "hilt",
+      "index": 2
+    }
+  ]
+}

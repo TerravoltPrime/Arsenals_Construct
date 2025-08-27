@@ -1,0 +1,12 @@
+{
+  "itemGroup.aarms.aarms": "Ancient Armaments",
+  "item.aarms.gladius": "Gladius",
+  "item.aarms.tanto": "Tantō",
+  "item.aarms.oodachi": "Ōdachi",
+  "item.aarms.wakizashi": "wakizashi",
+  "item.aarms.round_shield": "Round Shield",
+  "item.ballistech.ballista": "Ballista",
+  "item.aarms.gladius.description": "A somewhat heavy but well-balanced blade, slow to swing but worth while wielding.",
+  "item.aarms.tanto.description": "Small curved blades that will cut down the toughest foes.",
+  "item.aarms.wakizashi.description": "A medium katana that swiftly strikes down foes with elegant grace."
+}

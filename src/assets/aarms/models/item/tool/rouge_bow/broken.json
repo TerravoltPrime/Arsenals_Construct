@@ -1,0 +1,14 @@
+{
+  "loader": "tconstruct:tool",
+  "parent": "tconstruct:item/base/bow",
+  "textures": {
+    "limb_bottom": "aarms:item/tool/shortbow/limb",
+    "limb_top":    "aarms:item/tool/shortbow/grip",
+    "bowstring":   "aarms:item/tool/shortbow/bowstring_broken"
+  },
+  "parts": [
+    { "name": "limb", "index": 0 },
+    { "name": "grip",    "index": 1 },
+    { "name": "bowstring",   "index": 2 }
+  ]
+}

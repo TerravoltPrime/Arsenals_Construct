@@ -1,0 +1,36 @@
+{
+    "loader": "tconstruct:tool",
+    "parent": "forge:item/default-tool",
+    "textures": {
+        "parent": "tconstruct:item/base/shield",
+        "core": "aarms:item/tool/round_shield/core_broken"
+    },
+    "modifier_roots": [
+        "aarms:item/tool/round_shield/modifiers/broken/",
+        "aarms:item/tool/round_shield/modifiers/"
+    ],
+    "overrides": [
+        {
+            "predicate": {
+                "aarms:charging": 2
+            },
+            "model": "aarms:item/tool/round_shield/shield_blocking"
+        },
+        {
+            "predicate": {
+                "aarms:broken": 1
+            },
+            "model": "aarms:item/tool/round_shield/shield_broken"
+        }
+    ],
+    "parts": [
+        {
+            "name": "core",
+            "index": 0
+        },
+        {
+            "name": "plate",
+            "index": 1
+        }
+    ]
+}

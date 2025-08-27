@@ -1,0 +1,25 @@
+{
+  "loader": "tconstruct:tool",
+  "parent": "forge:item/default-tool",
+  "textures": {
+    "head":   "aarms:item/tool/tanto/blade",
+    "handle": "aarms:item/tool/tanto/handle",
+    "guard":  "aarms:item/tool/tanto/hilt"
+  },
+  "modifier_roots": [ "aarms:item/tool/tanto/modifiers/" ],
+  "parts": [
+    { "name": "handle", "index": 1 },
+    { "name": "head",   "index": 0 },
+    { "name": "guard",  "index": 2 }
+  ],
+  "overrides": [
+    {
+      "predicate": { "tconstruct:charging": 2 },
+      "model": "aarms:item/tool/tanto/blocking"
+    },
+    {
+      "predicate": { "tconstruct:broken": 1 },
+      "model": "aarms:item/tool/tanto/broken"
+    }
+  ]
+}
